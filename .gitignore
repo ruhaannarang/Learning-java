@@ -3,3 +3,4 @@ out/production/.idea/
 .git/
 .iml
 *.class
+.idea/
