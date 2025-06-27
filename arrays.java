@@ -20,5 +20,6 @@ public class arrays {
         for (int i=0;i<3;i++) {
             System.out.println(marks[i]);
         }
+//        To find length of an array we use arrayName.length
     }
 }
