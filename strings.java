@@ -29,5 +29,15 @@ public class strings {
         }else {
             System.out.println("Strings are not equal ");
         }
+        if (new String("Tony")== new String("Tony")){
+            System.out.println("Strings are equal");
+        }
+        else {
+            System.out.println("Strings are not equal");
+        }
+        String sentence="My name is Ruhaan";
+        String naam=sentence.substring(11,sentence.length());
+        System.out.println(naam);
+        System.out.println(sentence.substring(11));
     }
 }
