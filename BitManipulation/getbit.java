@@ -1,4 +1,5 @@
-import java.util.*;
+package BitManipulation;
+
 public class getbit {
     public static void main(String[]args){
         int n=8;

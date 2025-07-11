@@ -1,3 +1,5 @@
+package BitManipulation;
+
 import java.util.*;
 public class updateBit {
 //    to make 0 use clear operation and to make 1 use set operation

@@ -1,3 +1,5 @@
+package BitManipulation;
+
 public class setBit {
     public static void main(String[]args){
         int n=5;//0101
