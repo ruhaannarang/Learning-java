@@ -1,4 +1,4 @@
-public class arrays {
+ public class arrays {
     public static void main(String[]args){
         //list of items of the same type
 
