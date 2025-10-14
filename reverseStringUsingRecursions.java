@@ -8,7 +8,7 @@ public class reverseStringUsingRecursions {
 
     }
     public static void main(String []args){
-        String s="Ruhaan";
+        String s="Tanmay";
         int i=0;
         reverse(s,i);
     }
