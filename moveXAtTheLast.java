@@ -15,7 +15,7 @@ public class moveXAtTheLast {
     public static void main(String []args){
         int x=0;
         StringBuilder a=new StringBuilder("");
-        String str="axbcxxd";
+        String str="Taxnmxaxy";
         removeX(str,0,x,a);
         System.out.println(a);
     }
