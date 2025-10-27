@@ -8,14 +8,12 @@ public class TwoDArrays {
         for (int i = 0; i < rows; i++) {
             for (int j = 0; j < columns; j++) {
                 TwoDArray[i][j]=sc.nextInt();
-
             }
         }
 //        System.out.println(TwoDArray);
         for (int i = 0; i < rows; i++) {
             for (int j = 0; j < columns; j++) {
                 System.out.print(TwoDArray[i][j]+" ");
-
             }
             System.out.println();
         }
