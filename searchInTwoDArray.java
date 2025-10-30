@@ -6,7 +6,7 @@ public class searchInTwoDArray {
                 {7,88,96,4},
                 {41,9,143,1432}
         };
-        int target=1432;
+        int target=143;
         System.out.println(Arrays.toString(search(arr,target)));
     }
     public static int[] search(int [][] arr,int target){
