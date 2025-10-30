@@ -1,7 +1,7 @@
-public class binarySearch {
+public class binarySearchDescending {
     public static void main(String[]args){
-        int[] nums={1,2,3,4,5,6,7,8,9,10,11,22,33,44,55,66,77};
-        int target=77;
+        int[] nums={99,88,65,44,38,20,19,13,8,4,2,1,0};
+        int target=13;
         int ans= binarySearch(nums,target);
         System.out.println(ans);
     }
@@ -10,10 +10,10 @@ public class binarySearch {
         int end=arr.length-1;
         while (start<=end){
             int mid=start+(end-start)/2;
-            if(target<arr[mid]){
+            if(target>arr[mid]){
                 end=mid-1;
             }
-            else if(target>arr[mid]){
+            else if(target<arr[mid]){
                 start=mid+1;
             }
             else{
