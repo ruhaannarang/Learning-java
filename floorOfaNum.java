@@ -1,10 +1,10 @@
-public class CeilingOfANum {
+public class floorOfaNum {
     public static void main(String[]args){
         int [] arr={0,1,3,5,6,7,8,9,13,56,75,666};
-        int target=4;
-        System.out.println(ceiling(arr,target));
+        int target=8;
+        System.out.println(floor(arr,target));
     }
-    static int ceiling(int[] arr,int target){
+    static int floor(int[] arr,int target){
         int start=0;
         int end=arr.length-1;
 
@@ -27,6 +27,6 @@ public class CeilingOfANum {
                 return mid;
             }
         }
-        return start;
+        return end;
     }
 }
