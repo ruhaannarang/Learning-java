@@ -3,11 +3,11 @@ public class cyclesort {
         int[] num={1,4,5,3,2};
         int i=0;
         while(i<num.length){
-            int correct=num[i]-1;
-            if(num[i] != num[correct]){
+            int correctIndex=num[i]-1;
+            if(num[i] != num[correctIndex]){
                 int temp=num[i];
-                num[i]=num[correct];
-                num[correct]=temp;
+                num[i]=num[correctIndex];
+                num[correctIndex]=temp;
             }
             else{
                 i++;
