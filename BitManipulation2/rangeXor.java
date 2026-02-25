@@ -3,7 +3,7 @@ package BitManipulation2;
 public class rangeXor {
     public static void main(String[] args) {
         int a=3;
-        int b=9;
+        int b=9 ;
         System.out.println(XorA(b)^XorA(a-1));
     }
     static int XorA(int a){
