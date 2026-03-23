@@ -14,5 +14,9 @@ public class hashingBasic {
         for(int i=0;i<n;i++){
             hash[arr[i]]+=1;
         }
+        System.out.println("Enter the element:");
+        int num=sc.nextInt();
+        System.out.println(hash[num]);
+        return;
     }
 }
