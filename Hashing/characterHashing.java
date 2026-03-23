@@ -2,6 +2,7 @@ package Hashing;
 
 public class characterHashing {
     public static void main(String[] args) {
+        //for small letters only
         String str="asdhasfghjasd";
         char target='r';
         int[] hash=new int[26];
