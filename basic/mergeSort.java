@@ -9,7 +9,6 @@ public class mergeSort {
         int [] left=sort(Arrays.copyOfRange(arr,0,mid));
         int [] right=sort(Arrays.copyOfRange(arr,mid,arr.length));
         return merge(left,right);
-
     }
     static int[] merge(int[] left, int[] right){
         int i = 0, j = 0, index = 0;
